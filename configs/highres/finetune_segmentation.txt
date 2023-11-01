@@ -33,10 +33,7 @@
     "TestMaxTiles": 1000000,
     "NumLoaderWorkers": 4,
 
-    "Freeze": ["module.backbone.", "module.intermediates."],
-    "Unfreeze": 65536,
-    "WarmupExamples": 65536,
-    "WarmupDelay": 65536,
+    
 
     "SavePath": "models/highres/LABEL/",
     "NumEpochs": 10000,
@@ -63,7 +60,12 @@
         "Name": "adam",
         "InitialLR": 0.00001
     },
-    "WarmupExamples": 8192,
+
+    "Freeze": ["module.backbone.", "module.intermediates."],
+    "Unfreeze": 65536,
+    "WarmupExamples": 65536,
+    "WarmupDelay": 65536,
+
     "Scheduler": {
         "Name": "plateau",
         "Factor": 0.5,
