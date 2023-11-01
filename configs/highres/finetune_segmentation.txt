@@ -50,7 +50,7 @@
         }],
         "Heads": [{
             "Name": "simple",
-            'NumOutputs': 8
+            "NumOutputs": 8
         }],
         "NumChannels": 3
     },
