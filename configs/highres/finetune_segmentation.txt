@@ -61,7 +61,7 @@
         "InitialLR": 0.00001
     },
 
-    "Freeze": ["module.backbone.", "module.intermediates."],
+    "Freeze": ["backbone.", "intermediates."],
     "Unfreeze": 65536,
     "WarmupExamples": 65536,
     "WarmupDelay": 65536,
