@@ -33,6 +33,11 @@
     "TestMaxTiles": 1000000,
     "NumLoaderWorkers": 4,
 
+    "Freeze": ["module.backbone.", "module.intermediates."],
+    "Unfreeze": 65536,
+    "WarmupExamples": 65536,
+    "WarmupDelay": 65536,
+
     "SavePath": "models/highres/LABEL/",
     "NumEpochs": 10000,
     "Model": {
